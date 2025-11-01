@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Section from "./components/Section"; // إن لم يكن موجود انسخه من ملف App
 
 export default function HRView() {
   const [employees] = useState([
@@ -10,7 +9,7 @@ export default function HRView() {
 
   return (
     <div className="space-y-6">
-      <Section title="إدارة الموظفين" subtitle="عرض الحالة والمهام الحالية">
+      <div title="إدارة الموظفين" >
         <div className="rounded-2xl border bg-white overflow-auto">
           <table className="w-full text-sm">
             <thead>
@@ -33,7 +32,7 @@ export default function HRView() {
             </tbody>
           </table>
         </div>
-      </Section>
+      </div>
     </div>
   );
 }
