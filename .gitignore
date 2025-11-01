@@ -1,0 +1,6 @@
+# .gitignore
+
+# تجاهل مجلدات Node/NPM
+/node_modules
+/dist
+# ... أي ملفات أخرى تريد تجاهلها (مثل .env)
