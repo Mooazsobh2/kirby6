@@ -2,7 +2,7 @@
   "name": "my-app-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Mooazsobh2.github.io/Kirby6/",
+  "homepage": "https://Mooazsobh2.github.io/Smart-Money/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,6 +20,7 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.3",
